@@ -1,3 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println(numWaterBottles(15,4))
+  fmt.Println(numWaterBottles(9,3))
+}
+
 func numWaterBottles(numBottles int, numExchange int) int {
     drunk := numBottles
     emptys := numBottles
