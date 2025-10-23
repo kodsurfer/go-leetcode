@@ -1,3 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+        fmt.Println(hasSameDigits("3902))
+        fmt.Println(hasSameDigits("34789))
+}
+
 func hasSameDigits(s string) bool {
         x := []byte(s)
         n := len(s)
